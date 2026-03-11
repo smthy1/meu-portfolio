@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button id="temaBtn">🌙</button>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h1>Sobre mim</h1>
+            <div>
+                <p>
+                    Hello World 👋 Meu nome é Luiz, estudante de Análise
+                    e Desenvolvimento de Sistemas, tenho interesse na 
+                    área de tecnologia e gosto de aprender coisas novas 
+                    que possam contribuir para o meu crescimento 
+                    profissional e pessoal. 
+                </p>
+            </div>
+        </section>
+
+        <section id="formacao">
+            <h1>Formação</h1>
+            <div>
+                <ul>
+                    <li>Curso: Análise e Desenvolvimento de Sistemas</li>
+                    <li>Idiomas: Português 🇧🇷 Inglês 🇬🇧</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h1>Portfólio</h1>
+            <div>
+                <ul>
+                    <li><a href="https://github.com/smthy1/drinkDrop" target="_blank">Drink Drop</a> - Projeto Acadêmico icentivando hábitos saudáveis</li>
+                    <li><a href="https://github.com/smthy1/PayFlow" target="_blank">PayFlow</a> - Projeto pessoal que simula transações bancárias</li>
+                </ul>
+            </div>
+           
+        </section>
+
+        <section id="contato">
+            <h1>Contato</h1>
+            <div>
+                <h2>Mande sua mensagem!</h2>
+                <form id="formContato">
+                    <input
+                        type="text"
+                        id="nome"
+                        placeholder="Seu nome"
+                        required
+                    >
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Seu email"
+                        required
+                    >
+                    <textarea
+                        id="mensagem"
+                        placeholder="Digite sua mensagem"
+                        required
+                    ></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
